@@ -52,11 +52,11 @@ pip install opencv-python pyzbar
 
 python Visión UI.py
 
-3. Observa la salida en tiempo real en la pantalla. Puedes ajustar los parámetros según sea necesario en el archivo `main.py`.
+3. Observa la salida en tiempo real en la pantalla. Puedes ajustar los parámetros según sea necesario en el archivo `Visión UI.py`.
 
 ## Generación de QR
 
-Para evitar tener que generar cada QR con los datos de forma manual, hemos creado dos programas de generación de QR que facilitan su generación e impresión. El primero, QRgen1.py permite un uso más simple y el segundo QrGen1.py una generación masiva más rápida.
+Para evitar tener que generar cada QR con los datos de forma manual, hemos creado dos programas de generación de QR que facilitan su generación e impresión. El primero, `QRgen1.py` permite un uso más simple y el segundo `QrGen1.py` una generación masiva más rápida.
 
 Para utilizar estos programas se necesitan las siguientes librerías:
 
