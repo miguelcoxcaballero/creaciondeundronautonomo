@@ -68,6 +68,3 @@ pip install Pillow
 
 Las contribuciones son bienvenidas. Si deseas contribuir a este proyecto, por favor, crea una rama con tu función o corrección y envía un pull request.
 
-## Licencia
-
-Este proyecto está licenciado bajo la [Licencia MIT](LICENSE).
