@@ -1,6 +1,3 @@
-Aquí tienes el texto corregido y el tutorial de instalación:
-
-```markdown
 # Sistema de Seguimiento de Drones con Códigos QR
 
 Este proyecto consiste en un sistema de seguimiento de drones utilizando códigos QR para determinar la posición del drone en el espacio. El sistema utiliza una cámara montada en el drone para detectar códigos QR en el suelo y calcular su posición en relación con ellos.
@@ -35,23 +32,13 @@ El programa calcula la posición tridimensional del drone utilizando la informac
 
 3. Clona este repositorio en tu máquina local:
 
-   ```
-   git clone https://github.com/tu_usuario/sistema-seguimiento-drones.git
-   ```
+git clone https://github.com/miguelcoxcaballero/creaciondeundronautonomo.git
 
-   Reemplaza `tu_usuario` con tu nombre de usuario de GitHub.
-
-4. Navega al directorio del repositorio clonado:
-
-   ```
-   cd sistema-seguimiento-drones
-   ```
+4. Navega al directorio del repositorio clonado
 
 5. Instala las dependencias utilizando pip:
 
-   ```
-   pip install opencv-python pyzbar
-   ```
+pip install opencv-python pyzbar
 
 ## Uso
 
@@ -59,9 +46,8 @@ El programa calcula la posición tridimensional del drone utilizando la informac
 
 2. Ejecuta el script principal:
 
-   ```
-   python main.py
-   ```
+python Visión UI.py
+
 
 3. Observa la salida en tiempo real en la pantalla. Puedes ajustar los parámetros según sea necesario en el archivo `main.py`.
 
@@ -72,4 +58,3 @@ Las contribuciones son bienvenidas. Si deseas contribuir a este proyecto, por fa
 ## Licencia
 
 Este proyecto está licenciado bajo la [Licencia MIT](LICENSE).
-```
