@@ -1,4 +1,8 @@
-# Sistema de Seguimiento de Drones con Códigos QR
+
+![Texto alternativo](https://github.com/miguelcoxcaballero/creaciondeundronautonomo/blob/main/P%C3%B3sterDrone.png?raw=true)
+
+
+# Creación de un drone autónomo
 
 Este proyecto consiste en un sistema de seguimiento de drones utilizando códigos QR para determinar la posición del drone en el espacio. El sistema utiliza una cámara montada en el drone para detectar códigos QR en el suelo y calcular su posición en relación con ellos.
 
