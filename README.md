@@ -1,3 +1,6 @@
+Aquí tienes el texto corregido y el tutorial de instalación:
+
+```markdown
 # Sistema de Seguimiento de Drones con Códigos QR
 
 Este proyecto consiste en un sistema de seguimiento de drones utilizando códigos QR para determinar la posición del drone en el espacio. El sistema utiliza una cámara montada en el drone para detectar códigos QR en el suelo y calcular su posición en relación con ellos.
@@ -14,7 +17,7 @@ Este proyecto consiste en un sistema de seguimiento de drones utilizando código
 
 ## Descripción
 
-El sistema utiliza una cámara conectada a una Raspberry Pi para capturar imágenes del entorno del drone. Utilizando la biblioteca OpenCV y PyZbar, el sistema es capaz de detectar códigos QR en las imágenes. Cada código QR contiene información sobre su posición en el plano y su tamaño.
+El sistema utiliza una cámara conectada a una computadora con Windows para capturar imágenes del entorno del drone. Utilizando la biblioteca OpenCV y PyZbar, el sistema es capaz de detectar códigos QR en las imágenes. Cada código QR contiene información sobre su posición en el plano y su tamaño.
 
 El programa calcula la posición tridimensional del drone utilizando la información del código QR detectado y la geometría básica. Además, el sistema es capaz de corregir la trayectoria del drone en tiempo real en caso de desviación.
 
@@ -26,23 +29,39 @@ El programa calcula la posición tridimensional del drone utilizando la informac
 
 ## Instalación
 
+1. Asegúrate de tener Python 3 instalado en tu computadora. Puedes descargarlo desde [el sitio web oficial de Python](https://www.python.org/downloads/) e instalarlo siguiendo las instrucciones.
 
-1. Clona este repositorio en tu máquina local:
+2. Abre una terminal de comandos (cmd) en tu computadora.
 
-git clone https://github.com/tu_usuario/sistema-seguimiento-drones.git
+3. Clona este repositorio en tu máquina local:
 
+   ```
+   git clone https://github.com/tu_usuario/sistema-seguimiento-drones.git
+   ```
 
-2. Instala las dependencias utilizando pip:
+   Reemplaza `tu_usuario` con tu nombre de usuario de GitHub.
 
-pip install opencv-python pyzbar
+4. Navega al directorio del repositorio clonado:
+
+   ```
+   cd sistema-seguimiento-drones
+   ```
+
+5. Instala las dependencias utilizando pip:
+
+   ```
+   pip install opencv-python pyzbar
+   ```
 
 ## Uso
 
-1. Conecta la cámara a la Raspberry Pi.
+1. Conecta la cámara a tu computadora.
+
 2. Ejecuta el script principal:
 
-python main.py
-
+   ```
+   python main.py
+   ```
 
 3. Observa la salida en tiempo real en la pantalla. Puedes ajustar los parámetros según sea necesario en el archivo `main.py`.
 
@@ -53,3 +72,4 @@ Las contribuciones son bienvenidas. Si deseas contribuir a este proyecto, por fa
 ## Licencia
 
 Este proyecto está licenciado bajo la [Licencia MIT](LICENSE).
+```
